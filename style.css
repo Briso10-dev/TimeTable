@@ -1,0 +1,82 @@
+/* IFOnt family importation */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&family=Montserrat&display=swap');
+
+
+/*Variabilisation */
+:root {
+    --font-inter: 'Inter', sans-serif;
+    --font-montserrat : font-family: 'Montserrat', sans-serif;
+    --primary-color : #00A9FF;
+    --secondary-color :#89CFF3;
+    --empty-cell : #ADBAFF;
+}
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-family: var(--font-inter);
+    font-size: 4.8rem;
+    font-weight: 50rem;
+    line-height: 5.8px;
+    letter-spacing: 0em;
+    margin-top: 7rem;
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.5rem;
+}
+th{
+    border: 0.1rem solid black;
+    text-align: center;
+    font-family: var(--font-montserrat);
+    font-size: 2.5rem;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    width: 1%;
+    height: 7rem;
+}
+td{
+    border: 0.1rem solid black;
+    text-align: center;
+    font-family: var(--font-inter);
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    width: 1%;
+    height: 6.5rem;
+}
+tr .secondary{
+    background-color: var(--empty-cell);
+    color: var(--primary-color);
+    width: 0.3rem;
+}
+.empty-cell{
+    background-color: var(--secondary-color);
+}
+tr .border-top{
+    border-top-left-radius: 1.5rem;
+}
+tr .border-bottom{
+    border-bottom-right-radius: 1.5rem;
+}
+tr .border-topv{
+    border-top-right-radius: 1.5rem;
+}
+tr .border-bottoml{
+    border-bottom-left-radius: 1.5rem;
+}
