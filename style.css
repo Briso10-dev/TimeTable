@@ -24,6 +24,7 @@ html {
     padding: 0;
 }
 h1 {
+    text-decoration : underline;
     text-align: center;
     font-family: var(--font-inter);
     font-size: 4.8rem;
